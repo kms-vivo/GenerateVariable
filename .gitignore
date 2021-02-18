@@ -1,0 +1,14 @@
+TestDemo/settings/internal/com.kms.katalon.composer.testcase.properties
+TestDemo/settings/internal/com.kms.katalon.core.webservice.properties
+TestDemo/SalesforceTesting.prj
+TestDemo/debug.log
+TestDemo/settings/internal/com.kms.katalon.execution.properties
+TestDemo/settings/internal/com.kms.katalon.integration.analytics.properties
+TestDemo/settings/internal/com.kms.katalon.integration.qtest.properties
+TestDemo/settings/external/com.katalon.plugin.report.properties
+TestDemo/settings/external/com.kms.katalon.composer.execution.settings.properties
+TestDemo/settings/internal/com.kms.katalon.composer.testcase.properties
+TestDemo/settings/internal/com.kms.katalon.composer.testcase.properties
+TestDemo/TestDemo.prj
+TestDemo/.settings/org.eclipse.jdt.core.prefs
+TestDemo/settings/internal
