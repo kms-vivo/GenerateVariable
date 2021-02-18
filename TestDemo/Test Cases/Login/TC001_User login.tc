@@ -5,7 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>52fb13a5-423a-4fb0-88fa-a8864376431b</testCaseGuid>
-
    <variable>
       <defaultValue>'Value98916570'</defaultValue>
       <description></description>
@@ -13,7 +12,6 @@
       <masked>false</masked>
       <name>Name52639408</name>
    </variable>
-
    <variable>
       <defaultValue>'Value42218949'</defaultValue>
       <description></description>
