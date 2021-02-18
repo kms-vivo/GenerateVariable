@@ -25,8 +25,7 @@ StringHelper stringHelper = new StringHelper()
 FileActionHelper fileActionHelper = new FileActionHelper()
 
 
-def fileTCName = "TC001_User login"
-def fileScriptName = "Script1612499592395"
-//String nameVariable = stringHelper.randomValue("Name")
-//String defaultValue = stringHelper.randomValue("Value")
-fileActionHelper.AddAndReplaceVariable("${RunConfiguration.getProjectDir()}/Scripts/TC001_User login/${fileScriptName}.groovy", fileTCName)
+def folderID = "Test Cases/TC001_User login"
+String scriptName = fileActionHelper.findScriptTCName(folderID)
+println scriptName
+fileActionHelper.AddAndReplaceVariable(folderID, scriptName)

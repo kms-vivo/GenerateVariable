@@ -5,4 +5,20 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>52fb13a5-423a-4fb0-88fa-a8864376431b</testCaseGuid>
+
+   <variable>
+      <defaultValue>'Value98916570'</defaultValue>
+      <description></description>
+      <id>c1a1b5d8-8265-46df-80da-68c92e4763bf</id>
+      <masked>false</masked>
+      <name>Name52639408</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'Value42218949'</defaultValue>
+      <description></description>
+      <id>80e0dbe9-0bd7-4000-9884-8f72f98c0c02</id>
+      <masked>false</masked>
+      <name>Name3043683</name>
+   </variable>
 </TestCaseEntity>

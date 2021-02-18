@@ -26,4 +26,14 @@ public class StringHelper {
     WebUI.comment("${value}${random}")
     return "${value}${random}"
   }
+  
+  public String splitAndConcatPath(String str){
+    String[] splitStr = str.split("/")
+    String folderID = ""
+    for(int i = 1; i < splitStr.length; i++){
+      folderID += "/" + splitStr[i]
+    }
+    println folderID
+    return folderID
+  }
 }
