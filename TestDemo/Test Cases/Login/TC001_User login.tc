@@ -5,18 +5,20 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>52fb13a5-423a-4fb0-88fa-a8864376431b</testCaseGuid>
+
    <variable>
-      <defaultValue>'Value98916570'</defaultValue>
+      <defaultValue>'RAIVpflpDOg='</defaultValue>
       <description></description>
-      <id>c1a1b5d8-8265-46df-80da-68c92e4763bf</id>
+      <id>67347760-da7e-45d5-affd-feabeefd9fe7</id>
       <masked>false</masked>
-      <name>Name52639408</name>
+      <name>EmailAddressPassword</name>
    </variable>
+
    <variable>
-      <defaultValue>'Value42218949'</defaultValue>
+      <defaultValue>'admin@example.com'</defaultValue>
       <description></description>
-      <id>80e0dbe9-0bd7-4000-9884-8f72f98c0c02</id>
+      <id>36acb6b5-fe38-4685-ba6e-be2d10db9112</id>
       <masked>false</masked>
-      <name>Name3043683</name>
+      <name>RegisterNewAccountEmail</name>
    </variable>
 </TestCaseEntity>
