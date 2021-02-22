@@ -9,7 +9,7 @@
    <variable>
       <defaultValue>'RAIVpflpDOg='</defaultValue>
       <description></description>
-      <id>67347760-da7e-45d5-affd-feabeefd9fe7</id>
+      <id>12b8572d-685f-4ac3-8b8d-d86053882e62</id>
       <masked>false</masked>
       <name>EmailAddressPassword</name>
    </variable>
@@ -17,8 +17,8 @@
    <variable>
       <defaultValue>'admin@example.com'</defaultValue>
       <description></description>
-      <id>36acb6b5-fe38-4685-ba6e-be2d10db9112</id>
+      <id>b4d74823-8183-4b24-a733-b53eebe17f0a</id>
       <masked>false</masked>
-      <name>RegisterNewAccountEmail</name>
+      <name>Email</name>
    </variable>
 </TestCaseEntity>

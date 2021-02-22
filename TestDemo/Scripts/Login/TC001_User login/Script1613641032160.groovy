@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://demo.saleor.io/')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_Saleor e-commerce/li_GraphQL API_main-menu__icon'))
 
-WebUI.setText(findTestObject('Object Repository/Login/Page_Saleor e-commerce/input_Register new account_email'), RegisterNewAccountEmail)
+WebUI.setText(findTestObject('Login/Page_Saleor e-commerce/Email'), Email)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Saleor e-commerce/input_Email Address_password'), EmailAddressPassword)
 

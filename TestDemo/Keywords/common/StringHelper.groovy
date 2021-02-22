@@ -51,9 +51,13 @@ public class StringHelper {
     print "splitNameObj: ${splitNameObj.length}"
     
     String nameVariable = ""
-    for (int i = 1; i < splitNameObj.length; i++){ //ignore splitNameObj 0
-      nameVariable += Character.toUpperCase(splitNameObj[i].charAt(0))
-      nameVariable += splitNameObj[i].substring(1)
+    if(splitNameObj.length > 1){
+      for (int i = 1; i < splitNameObj.length; i++){ //ignore splitNameObj 0
+        nameVariable += Character.toUpperCase(splitNameObj[i].charAt(0))
+        nameVariable += splitNameObj[i].substring(1)
+      }
+    }else{
+      nameVariable = splitNameObj[0]
     }
     println nameVariable
     return nameVariable

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Register new account_email</name>
+   <name>Email</name>
    <tag></tag>
    <elementGuidId>568b0f8d-f1d2-49e7-8861-fc8bd88c8e0c</elementGuidId>
    <selectorCollection>
