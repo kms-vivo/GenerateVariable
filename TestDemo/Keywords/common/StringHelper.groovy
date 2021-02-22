@@ -26,7 +26,7 @@ public class StringHelper {
     WebUI.comment("${value}${random}")
     return "${value}${random}"
   }
-  
+
   public String splitAndConcatPath(String str){
     String[] splitStr = str.split("/")
     String folderID = ""
@@ -35,5 +35,27 @@ public class StringHelper {
     }
     println folderID
     return folderID
+  }
+  
+  
+  public String setNameVariable(String str, String regex ){
+    String[] splitStr = str.split(regex)
+    print "splitStr: ${splitStr.length}"
+    
+    //remove "/"
+    String[] nameObj = splitStr[1].split("/")
+    print "nameObj: ${nameObj.length}"
+    
+    //remove "_" and " ". 
+    String[] splitNameObj = nameObj[nameObj.length - 1].split("(\\_| )")
+    print "splitNameObj: ${splitNameObj.length}"
+    
+    String nameVariable = ""
+    for (int i = 1; i < splitNameObj.length; i++){ //ignore splitNameObj 0
+      nameVariable += Character.toUpperCase(splitNameObj[i].charAt(0))
+      nameVariable += splitNameObj[i].substring(1)
+    }
+    println nameVariable
+    return nameVariable
   }
 }

@@ -25,7 +25,7 @@ StringHelper stringHelper = new StringHelper()
 FileActionHelper fileActionHelper = new FileActionHelper()
 
 
-def folderID = "Test Cases/TC001_User login"
+def folderID = "Test Cases/Login/TC001_User login"
 String scriptName = fileActionHelper.findScriptTCName(folderID)
 println scriptName
 fileActionHelper.AddAndReplaceVariable(folderID, scriptName)

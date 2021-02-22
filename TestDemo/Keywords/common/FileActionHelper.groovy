@@ -36,9 +36,9 @@ public class FileActionHelper {
     }
   }
 
-  public void appendFileByNoOfLine(String folderID, int noOfLine, String nameValue, String defaultValue){
+  public void appendFileByNoOfLine(String testCaseID, int noOfLine, String nameValue, String defaultValue){
     def idVariable = UUID.randomUUID()
-    def file = new File("${RunConfiguration.getProjectDir()}/${folderID}.tc")
+    def file = new File("${RunConfiguration.getProjectDir()}/${testCaseID}.tc")
     def lines = file.readLines()
     String str ="""
    <variable>
@@ -62,6 +62,7 @@ public class FileActionHelper {
 
   public void AddAndReplaceVariable(String folderID, String scriptName) {
     String scripsID = stringHelper.splitAndConcatPath(folderID)
+    String nameVariable
     File file = new File("${RunConfiguration.getProjectDir()}/Scripts${scripsID}/${scriptName}")
     def line, noOfLines = 0;
     def findValue1 = "WebUI.setText"
@@ -71,26 +72,28 @@ public class FileActionHelper {
         def contentLine = line.toString()
         if(contentLine.contains(findValue1) | contentLine.contains(findValue2)){
           println "${line}"
-          //append Variable
-          String nameVariable = stringHelper.randomValue("Name")
-          String defaultValue = stringHelper.randomValue("Value")
-          //variable is always added to line 7 of file
-          appendFileByNoOfLine(folderID, 7, nameVariable, defaultValue)
+          
           //split the chain into two parts. Part 2 is the value of the variable
-          String[] str = contentLine.split("(, |\\)\$)")
+          String[] str = contentLine.split("(, '|'\\)\$)")
           for(int i = 0; i < str.length; i++){
             println str[i]
           }
+          //append Variable
+          //variable is always added to line 7 of file
+            nameVariable = stringHelper.setNameVariable(str[0], "(\\('|'\\))")
+            String defaultValue = str[1].toString()
+            appendFileByNoOfLine(folderID, 7, nameVariable, "${defaultValue}")
+          
           //change the value to a variable in Scripts
-          reviseVariable(folderID, scriptName, noOfLines, "${str[1]}", nameVariable)
+          reviseVariable(folderID, scriptName, noOfLines, "'${str[1]}'", nameVariable)
         }else
           noOfLines++
       }
     }
   }
-  public String findScriptTCName(String folderID){
-    folderID = stringHelper.splitAndConcatPath(folderID)
-    File currentDir = new File("${RunConfiguration.getProjectDir()}/Scripts${folderID}")
+  public String findScriptTCName(String testCaseID){
+    testCaseID = stringHelper.splitAndConcatPath(testCaseID)
+    File currentDir = new File("${RunConfiguration.getProjectDir()}/Scripts${testCaseID}")
     String fileName
     currentDir.traverse { File file ->
       if (file.name.endsWith('.groovy')) {
