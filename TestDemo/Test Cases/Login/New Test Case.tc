@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd504434-5a88-4845-ba2e-cda280883d0e</testCaseGuid>
+
+   <variable>
+      <defaultValue>'hghghghj'</defaultValue>
+      <description></description>
+      <id>d8f350cb-a514-463d-83b1-c3a025eb92ab</id>
+      <masked>false</masked>
+      <name>CommentComment</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'12/04/2021'</defaultValue>
+      <description></description>
+      <id>0ae04450-137f-474a-acd1-a35fc3ccd0d7</id>
+      <masked>false</masked>
+      <name>VisitDateRequiredVisitDate</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'klkljkljk'</defaultValue>
+      <description></description>
+      <id>5da2b029-4f6e-41b0-a963-154b4b95b8dc</id>
+      <masked>false</masked>
+      <name>Pass35988477</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'ghghghg'</defaultValue>
+      <description></description>
+      <id>91a1cf33-c1a8-423a-994b-e9f7ab92e391</id>
+      <masked>false</masked>
+      <name>Username16742483</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'êrtertert'</defaultValue>
+      <description></description>
+      <id>459e40d5-2c88-43ed-860b-8df485404145</id>
+      <masked>false</masked>
+      <name>Pass61391365</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'kkkkkkkkkk'</defaultValue>
+      <description></description>
+      <id>f027defc-1a69-4b1d-8839-b45ff4f6d006</id>
+      <masked>false</masked>
+      <name>Username48633706</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'hjhjhjjh'</defaultValue>
+      <description></description>
+      <id>01fe3616-fede-4981-9e46-ffce8894c047</id>
+      <masked>false</masked>
+      <name>Pass68761848</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'ggggggg'</defaultValue>
+      <description></description>
+      <id>5f653291-9519-4564-9601-c71436c5418f</id>
+      <masked>false</masked>
+      <name>Username13408290</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'dfdfdfdfđf'</defaultValue>
+      <description></description>
+      <id>a22254ab-91d1-4708-a012-934f60793ff4</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'âsasasas'</defaultValue>
+      <description></description>
+      <id>844a70a4-c6d8-489d-b580-10677d4b8b1f</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+</TestCaseEntity>

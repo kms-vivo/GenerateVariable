@@ -13,25 +13,25 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import common.FileActionHelper as FileActionHelper
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo.saleor.io/')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Saleor e-commerce/li_GraphQL API_main-menu__icon'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Login/Page_Saleor e-commerce/Email'), Email)
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 
+  UsernameUsername)
 
-WebUI.setText(findTestObject('Login/Page_Saleor e-commerce/Email'), 
-  Email)
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), PasswordPassword)
 
-WebUI.setText(findTestObject('Login/Page_Saleor e-commerce/Email'),
-  Email41105441)
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_Saleor e-commerce/input_Email Address_password'), EmailAddressPassword)
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'), VisitDateRequiredVisitDate)
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Saleor e-commerce/span_Sign in'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
+
+WebUI.closeBrowser()
 

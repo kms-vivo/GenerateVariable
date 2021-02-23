@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Size_quantity</name>
+   <name>input_Visit Date (Required)_visit_date</name>
    <tag></tag>
-   <elementGuidId>343592e6-745d-4926-818e-d514d3d499e0</elementGuidId>
+   <elementGuidId>9e4aa594-a9e5-401a-9a1c-f78a388495dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;quantity&quot;]</value>
+         <key>XPATH</key>
+         <value>//input[@id='txt_visit_date']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='quantity']</value>
+         <key>CSS</key>
+         <value>#txt_visit_date</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,71 +26,71 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>quantity</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>min</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-test</name>
-      <type>Main</type>
-      <value>addToCartQuantity</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sc-kjoXOD imDaoE</value>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>txt_visit_date</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>visit_date</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>dd/mm/yyyy</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>1</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;product-page&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;product-page__product&quot;]/div[@class=&quot;product-page__product__info&quot;]/div[@class=&quot;product-page__product__info--fixed&quot;]/div[@class=&quot;sc-lnmtFM fykVdR&quot;]/div[@class=&quot;sc-bbkauy iuyqVZ&quot;]/div[@class=&quot;sc-lhVmIH jWVDYy&quot;]/div[@class=&quot;sc-fAjcbJ eqMiH&quot;]/div[@class=&quot;sc-gisBJw cUvgDT&quot;]/input[@class=&quot;sc-kjoXOD imDaoE&quot;]</value>
+      <value>id(&quot;txt_visit_date&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='quantity']</value>
+      <value>//input[@id='txt_visit_date']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/input</value>
+      <value>//section[@id='appointment']/div/div/form/div[4]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/input</value>
+      <value>//div/input</value>
    </webElementXpaths>
 </WebElementEntity>
