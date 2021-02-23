@@ -7,17 +7,25 @@
    <testCaseGuid>52fb13a5-423a-4fb0-88fa-a8864376431b</testCaseGuid>
 
    <variable>
-      <defaultValue>'RAIVpflpDOg='</defaultValue>
+      <defaultValue>'kkkkklll'</defaultValue>
       <description></description>
-      <id>12b8572d-685f-4ac3-8b8d-d86053882e62</id>
+      <id>02bf0918-7989-41f0-9f89-ed8853ed1a5a</id>
       <masked>false</masked>
       <name>EmailAddressPassword</name>
    </variable>
 
    <variable>
-      <defaultValue>'admin@example.com'</defaultValue>
+      <defaultValue>'qqqqq'</defaultValue>
       <description></description>
-      <id>b4d74823-8183-4b24-a733-b53eebe17f0a</id>
+      <id>da7827e9-84ff-4dac-90c4-b8a8cca1a407</id>
+      <masked>false</masked>
+      <name>Email41105441</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'dddđ'</defaultValue>
+      <description></description>
+      <id>f0df8c60-8c4c-4eca-a3df-c82f941f4380</id>
       <masked>false</masked>
       <name>Email</name>
    </variable>

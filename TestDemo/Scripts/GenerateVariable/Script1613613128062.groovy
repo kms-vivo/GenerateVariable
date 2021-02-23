@@ -21,11 +21,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import common.FileActionHelper
 import common.StringHelper
 import internal.GlobalVariable as GlobalVariable
+
 StringHelper stringHelper = new StringHelper()
 FileActionHelper fileActionHelper = new FileActionHelper()
 
-
-def folderID = "Test Cases/Login/TC001_User login"
-String scriptName = fileActionHelper.findScriptTCName(folderID)
+String scriptName = fileActionHelper.findScriptTCName(FolderID)
 println scriptName
-fileActionHelper.AddAndReplaceVariable(folderID, scriptName)
+fileActionHelper.AddAndReplaceVariable(FolderID, scriptName)
+
+//String scripsID = stringHelper.splitAndConcatPath(FolderID)
+//fileActionHelper.readFileLineByLine("${RunConfiguration.getProjectDir()}/Scripts${scripsID}/${scriptName}")

@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>af17a1fb-8b60-46ba-a004-97dbf612ff49</testCaseGuid>
+   <variable>
+      <defaultValue>'Test Cases/Login/TC001_User login'</defaultValue>
+      <description></description>
+      <id>14856275-f312-4045-87ef-f2c45b542b56</id>
+      <masked>false</masked>
+      <name>FolderID</name>
+   </variable>
 </TestCaseEntity>

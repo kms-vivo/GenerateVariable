@@ -36,25 +36,31 @@ public class StringHelper {
     println folderID
     return folderID
   }
-  
-  
+
+
   public String setNameVariable(String str, String regex ){
     String[] splitStr = str.split(regex)
     print "splitStr: ${splitStr.length}"
-    
+
     //remove "/"
     String[] nameObj = splitStr[1].split("/")
     print "nameObj: ${nameObj.length}"
-    
-    //remove "_" and " ". 
-    String[] splitNameObj = nameObj[nameObj.length - 1].split("(\\_| )")
+
+    //remove "_" and " ".
+    String[] splitNameObj = nameObj[nameObj.length - 1].split("(\\_|\\W)")
     print "splitNameObj: ${splitNameObj.length}"
-    
+    for(int i = 0; i < splitNameObj.length; i++){
+      println splitNameObj[i]
+    }
+
     String nameVariable = ""
     if(splitNameObj.length > 1){
       for (int i = 1; i < splitNameObj.length; i++){ //ignore splitNameObj 0
-        nameVariable += Character.toUpperCase(splitNameObj[i].charAt(0))
-        nameVariable += splitNameObj[i].substring(1)
+        println splitNameObj[i]
+        if(!splitNameObj[i].toString().isEmpty()){
+          nameVariable += Character.toUpperCase(splitNameObj[i].charAt(0))
+          nameVariable += splitNameObj[i].substring(1)
+        }
       }
     }else{
       nameVariable = splitNameObj[0]

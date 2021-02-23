@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>512c2dcb-49d2-4e36-b91b-051cb3b0849b</testCaseGuid>
+
+   <variable>
+      <defaultValue>'23/02/2021'</defaultValue>
+      <description></description>
+      <id>0d89c441-33b6-447e-9e37-844ca732d4e7</id>
+      <masked>false</masked>
+      <name>VisitDateRequiredVisitDate</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>ae9e0596-dbba-477c-8fa6-adca7b7c1a02</id>
+      <masked>false</masked>
+      <name>PasswordPassword</name>
+   </variable>
+
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>413d77ee-df42-4d71-a215-cbc06d91d650</id>
+      <masked>false</masked>
+      <name>UsernameUsername</name>
+   </variable>
+</TestCaseEntity>
